@@ -1,0 +1,100 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+body{
+    background-image: url("img5.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100vw 92vh, cover;
+}
+
+/* div{
+    border: 2px solid red;
+} */
+
+#navbar{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#automative{
+    font-size: 30px;
+    font-weight: 200;
+}
+#automative > img{
+    height: 25px;
+    width: 25px;
+}
+
+ul{
+    list-style: none;
+    display: inline-block;
+}
+
+li{
+    display: inline-block;
+    padding: 0% 20px;
+}
+
+li{
+    transition: all 0.3s ease 0s;
+}
+
+li:hover{
+    color: rgb(1, 194, 255);
+}
+
+button, #book-appointment{
+    padding: 14px 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(1, 194, 255);
+    color: white;
+    cursor: pointer;
+}
+
+#container{
+    position: relative;
+    height: 74vh;
+}
+
+#content{
+    margin: 0 10rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+h1, h4{
+    color: rgb(1, 194, 255);
+}
+
+h1{
+    font-size: 35px;
+}
+
+#content > p{
+    color: black;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+#footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    padding: 8px;
+}
+
+.footer-content > p{
+    margin-top: -10px;
+    font-size: 15px;
+    color: white;
+}
